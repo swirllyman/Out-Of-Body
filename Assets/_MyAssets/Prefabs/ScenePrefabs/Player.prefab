@@ -152,14 +152,14 @@ MonoBehaviour:
   m_text: "Reviving in.. \n5"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2100000, guid: 9d1cc836be33e5d4086f1057c7b5b126, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4288519583
+  m_fontColor: {r: 0.6226415, g: 0.61383057, b: 0.61383057, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -473,6 +473,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   useCursorLock: 1
+  allowCursorLock: 1
   cursorLockKeyCode: 27
   head: {fileID: 2152320444091599776}
   cam: {fileID: 2152320444451662848}
@@ -490,6 +491,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db41616939911e046aad4dad82dce595, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  invincible: 0
   childRigidBody: {fileID: 2152320442785160404}
   postVolume: {fileID: 5141680636693125169}
   notificationText: {fileID: 2152320442706515495}
