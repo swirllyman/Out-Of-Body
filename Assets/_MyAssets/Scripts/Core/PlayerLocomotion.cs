@@ -64,7 +64,6 @@ public class PlayerLocomotion : MonoBehaviour
         
         moveDirection = new Vector3(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical")).normalized;
         
-        
         if (Input.GetKeyDown(cursorLockKeyCode))
         {
             ToggleCursor();
