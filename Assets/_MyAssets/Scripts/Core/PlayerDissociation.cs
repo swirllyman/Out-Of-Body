@@ -37,8 +37,17 @@ public class PlayerDissociation : MonoBehaviour
 
         postVolume.profile.TryGet(out colorAdjustment);
 
-        notificationText.enabled = false;
+        if (colorAdjustment == null)        //When Importing the package for the first time the Post Volume might lose reference
+        {
+            postVolume.profile.Add<ColorAdjustments>();
+            postVolume.profile.TryGet(out colorAdjustment);
+            colorAdjustment.saturation.overrideState = true;
+        }
+
         colorAdjustment.saturation.value = 0;
+
+        notificationText.enabled = false;
+
 
         startPose.position = childCollider.transform.localPosition;
         startPose.rotation = childCollider.transform.localRotation;

@@ -381,7 +381,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69d4fc59ac0e9bb498b9e3e3585376bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  followPlayer: 0
+  followPlayer: 1
   currentCD: 1
   manualInput: 1
   shootingKeyCode: 306
